@@ -1,0 +1,24 @@
+[{
+    "_index": 1,
+    "name": "Фильмы",
+    "childs": [4],
+    "parent": 0
+},
+{
+    "_index": 2,
+    "name": "Сериалы",
+    "childs": [],
+    "parent": 0
+},
+{
+    "_index": 3,
+    "name": "Мультфильмы",
+    "childs": [],
+    "parent": 0
+},{
+    "_index": 4,
+    "name": "Угнать за 60 секунд",
+    "childs": [],
+    "parent": 1
+}]
+ 
