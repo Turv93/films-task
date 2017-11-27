@@ -18,7 +18,12 @@
 },{
     "_index": 4,
     "name": "Угнать за 60 секунд",
-    "childs": [],
+    "childs": [5],
     "parent": 1
+},{
+    "_index": 5,
+    "name": "hd",
+    "childs": [],
+    "parent": 4
 }]
  

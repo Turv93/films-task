@@ -18,7 +18,11 @@ export class PlaylistMenuComponent {
   @Output('select') select: EventEmitter<number> = new EventEmitter<number>();
 
   selectItem(playlistIndex: number) {
-    
+    this.select.emit(playlistIndex);
+  }
+
+  goToTop(playlistIndex: number) {
+  
     this.select.emit(playlistIndex);
   }
 

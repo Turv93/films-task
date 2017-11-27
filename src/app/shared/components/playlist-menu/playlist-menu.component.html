@@ -1,4 +1,4 @@
 <ul>
-  <!-- <li (click)="goToTop()" *ngIf="playlists[0].parent">...</li> -->
+  <li (click)="goToTop(-1)" *ngIf="playlists[0].parent">...</li>
   <li *ngFor="let playlist of playlists" (click)="selectItem(playlist._index)">{{ playlist.name }}</li>
 </ul>

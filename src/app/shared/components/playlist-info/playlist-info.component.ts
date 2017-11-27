@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./playlist-info.component.css']
 })
 export class PlaylistInfoComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
+    
+
   }
+  
 
 }

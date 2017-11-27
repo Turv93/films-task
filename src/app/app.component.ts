@@ -11,7 +11,6 @@ export class AppComponent implements OnInit{
   
   playlists: IPlaylist[];
   parentId: number;
-  parentListid: number;
     
   constructor(private _playlistService: PlaylistService) { }
 
@@ -24,7 +23,15 @@ export class AppComponent implements OnInit{
   }
 
   onPlaylistSelect(playListIndex: number){
-    this.parentId = playListIndex;
+    if (playListIndex == -1) {
+      this.parentId = this.playlists.find((playlist)=>playlist._index == this.parentId).parent;
+    
+
+    } else {
+      this.parentId = playListIndex;
+    }
+    
+    
   }
 
 }
